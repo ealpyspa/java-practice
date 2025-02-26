@@ -2,7 +2,7 @@ package practice_5_oop.task1_transport;
 
 public class Main {
     public static void main(String[] args) {
-        Transport car = new Car();
+        Transport car = new Car(); //SOLID => L - Барбара Лисков - принцип подстановки (то, что можем заменить родителя на наследника)
         Transport ship = new Ship();
         Transport plane = new Plane();
 
