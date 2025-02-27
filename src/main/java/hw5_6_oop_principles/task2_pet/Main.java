@@ -7,11 +7,11 @@ public class Main {
         Manager manager = new Manager();
 
         manager.addPet(dog);
-        manager.feedPat(dog);
+        manager.feedPet(dog);
         manager.walkPet(dog);
 
         manager.addPet(cat);
-        manager.feedPat(cat);
+        manager.feedPet(cat);
         manager.playWithPet(cat);
 
     }

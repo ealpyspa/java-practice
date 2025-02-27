@@ -5,7 +5,7 @@ public class Manager {
         pet.add();
     }
 
-    public void feedPat(Pet pet) {
+    public void feedPet(Pet pet) {
         pet.feed();
     }
 
