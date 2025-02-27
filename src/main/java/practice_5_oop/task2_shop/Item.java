@@ -29,6 +29,6 @@ public class Item implements Printable{
 
     @Override
     public void print() {
-        System.out.print("Мой товар: имя " + this.name + ", цена " + this.price + ", количество " +this.count);
+        System.out.print("Мой товар: имя " + this.name + ", цена " + this.price + ", количество " + this.count);
     }
 }
