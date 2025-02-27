@@ -1,4 +1,4 @@
-package hw5_6_oop_principles.task2_pet;
+package hw5_6_oop_principles.task2_pet_interfaces;
 
 public class Main {
     public static void main(String[] args) {

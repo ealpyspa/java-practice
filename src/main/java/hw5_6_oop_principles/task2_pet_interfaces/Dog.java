@@ -1,6 +1,6 @@
-package hw5_6_oop_principles.task2_pet;
+package hw5_6_oop_principles.task2_pet_interfaces;
 
-public class Dog extends Pet{
+public class Dog extends Pet implements Walkable{
 
     @Override
     public void feed() {
@@ -14,7 +14,6 @@ public class Dog extends Pet{
 
     @Override
     public void walk() {
-        super.walk();
-        System.out.println(" 40 минут.");
+        System.out.println("Погулять с собакой 40 минут на улицу.");
     }
 }

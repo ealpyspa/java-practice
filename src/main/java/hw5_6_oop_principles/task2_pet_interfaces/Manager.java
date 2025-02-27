@@ -1,4 +1,4 @@
-package hw5_6_oop_principles.task2_pet;
+package hw5_6_oop_principles.task2_pet_interfaces;
 
 public class Manager {
     public void addPet(Pet pet) {
@@ -10,11 +10,11 @@ public class Manager {
     }
 
     public void walkPet(Pet pet) {
-        pet.walk();
+        //pet.walk(); // compilation error
     }
 
     public void playWithPet(Pet pet) {
-        pet.play();
+        //pet.play(); // compilation error
     }
 
 }
