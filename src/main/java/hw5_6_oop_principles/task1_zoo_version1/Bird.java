@@ -1,4 +1,4 @@
-package hw5_6_oop_principles.task1_zoo;
+package hw5_6_oop_principles.task1_zoo_version1;
 
 public class Bird extends Animal{
     @Override

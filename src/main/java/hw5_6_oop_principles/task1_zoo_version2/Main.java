@@ -1,4 +1,4 @@
-package hw5_6_oop_principles.task1_zoo;
+package hw5_6_oop_principles.task1_zoo_version2;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,11 +7,11 @@ public class Main {
 
         Operator operator = new Operator();
 
-        operator.operate(elephant);
+        operator.add(elephant);
         operator.demonstrateSound(elephant);
         operator.demonstrateMove(elephant);
 
-        operator.operate(bird);
+        operator.add(bird);
         operator.demonstrateSound(bird);
         operator.demonstrateMove(bird);
 
