@@ -1,4 +1,4 @@
-package hw7_jfc.hash_map_task1;
+package hw7_jfc.hash_map_task1_and_task2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,5 +19,12 @@ public class Task1HashMap {
         for(Map.Entry<String, Integer> entry: students.entrySet()) {
             System.out.println("name: " + entry.getKey() + ", age: " + entry.getValue());
         }
+    }
+
+    // task2 solution
+    public void nameCheck(String searchedName) {
+        if(students.containsKey(searchedName)) {
+            System.out.println("Found");
+        } else System.out.println("Not found");
     }
 }

@@ -1,4 +1,4 @@
-package hw7_jfc.hash_map_task1;
+package hw7_jfc.hash_map_task1_and_task2;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,5 +8,9 @@ public class Main {
         task1HashMap.addStudent("Tom", 31);
 
         task1HashMap.printStudents();
+        
+        // task2 check
+        task1HashMap.nameCheck("Alice");
+        task1HashMap.nameCheck("Alicee");
     }
 }
