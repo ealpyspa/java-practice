@@ -19,8 +19,7 @@ public class Library {
     // то получаем непроверяемое исключение InvalidBookException
     public void addBook(Book book) throws InvalidBookException {
         if (books.contains(book)) {
-            throw new InvalidBookException("Такая книга уже существует в библиотеке.")
-                    ;
+            throw new InvalidBookException("Такая книга уже существует в библиотеке.");
         } else {
             books.add(book);
         }
