@@ -34,7 +34,6 @@ public class Main {
         System.out.println(itemsLength);
 
         //task4
-
         List<Integer> initialNumbers = Arrays.asList(1, 4, 5, 10, 3, 15);
 
         List<Integer> modifiedNumbers = initialNumbers.stream()
