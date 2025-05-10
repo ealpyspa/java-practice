@@ -1,4 +1,4 @@
-package practice_2;
+package practice.practice_2;
 
 public class Student {
     // поля
