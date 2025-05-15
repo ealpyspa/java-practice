@@ -2,7 +2,7 @@ package practice.practice_10.volatilekeyword;
 
 public class StatusChecker implements Runnable {
     // если active = false, все потоки должны завершить исполнение
-    private boolean active = true;
+    private volatile boolean active = true;
 
     @Override
     public void run() {
