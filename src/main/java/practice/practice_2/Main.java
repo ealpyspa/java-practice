@@ -1,6 +1,4 @@
-package practice_2;
-
-import practice_3.Test1;
+package practice.practice_2;
 
 public class Main {
     public static void main(String[] args) {
