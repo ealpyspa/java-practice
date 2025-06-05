@@ -46,7 +46,13 @@ public class IsValidPhoneNumberTest {
             // phone number contains 9 figures
             "+12 123456789",
             // phone number contains 11 figures
-            "+123 12345678987"
+            "+123 12345678987",
+            // entered letters
+            "invalid",
+            // entered special symbols
+            "+12 123456789!",
+            // empty string
+            ""
     })
     public void userShouldGetFalseIfNumberIsInvalid(String phone) {
         boolean actualResult = isValidPhoneNumber.isValidPhoneNumber(phone);
