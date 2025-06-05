@@ -22,8 +22,9 @@ public class FindSecondMaxTest {
 
     public static Stream<Arguments> numbersToFindSecondMax (){
         return Stream.of(
-                Arguments.of(new int[] {-3, 5, 7, 0}, "5"),
-                Arguments.of(new int[] {1, 2, 3, 4}, "3"));
+                Arguments.of(new int[] {3, 5, 7, 0}, 5),
+                Arguments.of(new int[] {1, 2, 3, 4}, 3),
+                Arguments.of(new int[] {-1, -2, -3, -4}, -2));
     }
 
     @ParameterizedTest
