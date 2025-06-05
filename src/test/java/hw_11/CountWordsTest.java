@@ -19,7 +19,7 @@ public class CountWordsTest {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {""}) // если через @CSVSource ({"\"\", 0}) -> actualResult = 1
+    @ValueSource(strings = {""}) // если через @CSVSource ({"\"\", 0}) -> actualResult = 1 => SOLUTION:@CsvSource({"'', 0"})
     public void userShouldGetZeroWordsIfStringIsEmpty(String sentence) {
         int actualResult = countWords.countWords(sentence);
 
