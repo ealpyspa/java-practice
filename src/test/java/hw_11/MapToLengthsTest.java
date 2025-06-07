@@ -22,8 +22,8 @@ public class MapToLengthsTest {
     public static Stream<Arguments> stringsToBeMapped() {
         return Stream.of(
                 Arguments.of(
-                        List.of("Java","C++", "Go","Hello world1!"),
-                        List.of(4, 3, 2, 13)
+                        List.of("Java","C++", "Go","Hello world1!", ""),
+                        List.of(4, 3, 2, 13, 0)
                 )
         );
     }
