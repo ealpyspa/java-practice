@@ -36,7 +36,9 @@ public class IsValidPasswordTest {
             // no capital letter
             "passwor1",
             // no figure
-            "paSsword"
+            "paSsword",
+            // with symbol "!"
+            "passWord!"
     })
     public void userShouldGetFalseIfPasswordIsInvalid(String password) {
         boolean actualResult = isValidPassword.isValidPassword(password);
